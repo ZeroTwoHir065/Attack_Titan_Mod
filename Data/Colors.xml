@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+  <Colors>
+    <Row Type="COLOR_AOT_GREEN_DK" Red="0.10" Green="0.30" Blue="0.12" Alpha="1.0"/>
+    <Row Type="COLOR_AOT_BLUE_DK" Red="0.08" Green="0.12" Blue="0.32" Alpha="1.0"/>
+  </Colors>
   <PlayerColors>
     <Row Type="LEADER_AOT_EREN" Usage="Unique"
-         PrimaryColor="COLOR_STANDARD_GREEN_DK"
-         SecondaryColor="COLOR_STANDARD_BLUE_DK"
-         Alt1PrimaryColor="COLOR_STANDARD_GREEN_MD"
-         Alt1SecondaryColor="COLOR_STANDARD_BLUE_DK"
-         Alt2PrimaryColor="COLOR_STANDARD_BLUE_DK"
-         Alt2SecondaryColor="COLOR_STANDARD_GREEN_DK"
-         Alt3PrimaryColor="COLOR_STANDARD_GREEN_DK"
-         Alt3SecondaryColor="COLOR_STANDARD_GREEN_MD"/>
+         PrimaryColor="COLOR_AOT_GREEN_DK"
+         SecondaryColor="COLOR_AOT_BLUE_DK"
+         TextColor="COLOR_AOT_BLUE_DK"/>
   </PlayerColors>
 </GameInfo>
