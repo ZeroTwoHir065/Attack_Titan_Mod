@@ -18,7 +18,6 @@ INSERT INTO Types (Type, Kind) VALUES
   ('ABILITY_AOT_FOUNDERS_DEFENSE',               'KIND_ABILITY'),
   ('ABILITY_AOT_ODM_SCOUTS',                     'KIND_ABILITY'),
   ('ABILITY_AOT_ODM_REGIMENT',                   'KIND_ABILITY'),
-  ('AGENDA_AOT_WALL_DEFENDER',                   'KIND_AGENDA'),
   ('TRAIT_AGENDA_AOT_WALL_DEFENDER',             'KIND_TRAIT');
 
 --------------------------------------------------------------
