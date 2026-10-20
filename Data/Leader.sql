@@ -192,6 +192,21 @@ INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
 INSERT INTO TypeTags (Type, Tag) VALUES
 ('ABILITY_AOT_ODM_SCOUTS', 'CLASS_RECON');
 
+-- ODM modifiers for scouts: ignore forest and jungle movement cost
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('AOT_ODM_SCOUTS_IGNORE_FOREST', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST'),
+('AOT_ODM_SCOUTS_IGNORE_JUNGLE', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('AOT_ODM_SCOUTS_IGNORE_FOREST', 'Ignore', '1'),
+('AOT_ODM_SCOUTS_IGNORE_FOREST', 'Type', 'FOREST'),
+('AOT_ODM_SCOUTS_IGNORE_JUNGLE', 'Ignore', '1'),
+('AOT_ODM_SCOUTS_IGNORE_JUNGLE', 'Type', 'JUNGLE');
+
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('ABILITY_AOT_ODM_SCOUTS', 'AOT_ODM_SCOUTS_IGNORE_FOREST'),
+('ABILITY_AOT_ODM_SCOUTS', 'AOT_ODM_SCOUTS_IGNORE_JUNGLE');
+
 -- 9c. ODM Gear for Scout Regiment (always active, Inactive=0)
 INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
 ('ABILITY_AOT_ODM_REGIMENT',
@@ -200,6 +215,21 @@ INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
 
 INSERT INTO TypeTags (Type, Tag) VALUES
 ('ABILITY_AOT_ODM_REGIMENT', 'CLASS_AOT_SCOUT_REGIMENT');
+
+-- ODM Gear modifiers: ignore forest and jungle movement cost
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('AOT_ODM_IGNORE_FOREST', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST'),
+('AOT_ODM_IGNORE_JUNGLE', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('AOT_ODM_IGNORE_FOREST', 'Ignore', '1'),
+('AOT_ODM_IGNORE_FOREST', 'Type', 'FOREST'),
+('AOT_ODM_IGNORE_JUNGLE', 'Ignore', '1'),
+('AOT_ODM_IGNORE_JUNGLE', 'Type', 'JUNGLE');
+
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('ABILITY_AOT_ODM_REGIMENT', 'AOT_ODM_IGNORE_FOREST'),
+('ABILITY_AOT_ODM_REGIMENT', 'AOT_ODM_IGNORE_JUNGLE');
 
 --------------------------------------------------------------
 -- 10. CIV TRAIT MODIFIERS — Three Walls
