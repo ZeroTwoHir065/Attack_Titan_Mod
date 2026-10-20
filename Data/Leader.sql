@@ -128,16 +128,14 @@ INSERT INTO TypeTags (Type, Tag) VALUES ('UNIT_AOT_SCOUT_REGIMENT', 'CLASS_AOT_S
 INSERT INTO Buildings
   (BuildingType, Name, Description, PrereqTech, Cost, PrereqDistrict,
    OuterDefenseHitPoints, Housing, TraitType, AdvisorType)
-SELECT
-  'BUILDING_AOT_WALL_MARIA',
-  'LOC_BUILDING_AOT_WALL_MARIA_NAME',
-  'LOC_BUILDING_AOT_WALL_MARIA_DESCRIPTION',
-  PrereqTech, Cost, PrereqDistrict,
-  150,
-  2,
-  'TRAIT_CIVILIZATION_AOT_BUILDING_WALL_MARIA',
-  AdvisorType
-FROM Buildings WHERE BuildingType = 'BUILDING_WALLS';
+VALUES
+  ('BUILDING_AOT_WALL_MARIA',
+   'LOC_BUILDING_AOT_WALL_MARIA_NAME',
+   'LOC_BUILDING_AOT_WALL_MARIA_DESCRIPTION',
+   'TECH_MASONRY', 80, 'DISTRICT_CITY_CENTER',
+   150, 2,
+   'TRAIT_CIVILIZATION_AOT_BUILDING_WALL_MARIA',
+   'ADVISOR_CONQUEST');
 
 INSERT INTO BuildingReplaces (CivUniqueBuildingType, ReplacesBuildingType) VALUES
 ('BUILDING_AOT_WALL_MARIA', 'BUILDING_WALLS');
@@ -180,32 +178,26 @@ INSERT INTO ModifierStrings (ModifierId, Context, Text) VALUES
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
 ('AOT_UNIT_IN_OWN_TERRITORY', 'REQUIREMENTSET_TEST_ALL');
 
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('AOT_REQ_UNIT_OWN_TERRITORY', 'REQUIREMENT_UNIT_IN_OWNER_TERRITORY');
+
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
-('AOT_UNIT_IN_OWN_TERRITORY', 'UNIT_IN_OWNER_TERRITORY_REQUIREMENT');
+('AOT_UNIT_IN_OWN_TERRITORY', 'AOT_REQ_UNIT_OWN_TERRITORY');
 
 -- 9b. ODM Gear for Scouts (granted by leader trait, Inactive=1)
-INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive, IgnoreMoveInFeature) VALUES
+INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
 ('ABILITY_AOT_ODM_SCOUTS',
  'LOC_ABILITY_AOT_ODM_SCOUTS_NAME',
- 'LOC_ABILITY_AOT_ODM_SCOUTS_DESCRIPTION', 1, 1);
+ 'LOC_ABILITY_AOT_ODM_SCOUTS_DESCRIPTION', 1);
 
 INSERT INTO TypeTags (Type, Tag) VALUES
 ('ABILITY_AOT_ODM_SCOUTS', 'CLASS_RECON');
 
-INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
-('ABILITY_AOT_ODM_SCOUTS', 'AOT_ODM_SCOUTS_MOVEMENT');
-
-INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
-('AOT_ODM_SCOUTS_MOVEMENT', 'MODIFIER_UNIT_ADJUST_MOVEMENT');
-
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-('AOT_ODM_SCOUTS_MOVEMENT', 'Amount', '1');
-
 -- 9c. ODM Gear for Scout Regiment (always active, Inactive=0)
-INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive, IgnoreMoveInFeature) VALUES
+INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
 ('ABILITY_AOT_ODM_REGIMENT',
  'LOC_ABILITY_AOT_ODM_NAME',
- 'LOC_ABILITY_AOT_ODM_DESCRIPTION', 0, 1);
+ 'LOC_ABILITY_AOT_ODM_DESCRIPTION', 0);
 
 INSERT INTO TypeTags (Type, Tag) VALUES
 ('ABILITY_AOT_ODM_REGIMENT', 'CLASS_AOT_SCOUT_REGIMENT');
@@ -281,18 +273,38 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ('AOT_ENCAMPMENT_BUILDING_PRODUCTION', 'DistrictType', 'DISTRICT_ENCAMPMENT'),
 ('AOT_ENCAMPMENT_BUILDING_PRODUCTION', 'Amount',       '50');
 
--- Grant ODM ability to scouts
+-- Grant ODM ability to scouts (tooltip)
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
 ('AOT_GRANT_ODM_SCOUTS', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY');
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ('AOT_GRANT_ODM_SCOUTS', 'AbilityType', 'ABILITY_AOT_ODM_SCOUTS');
 
+-- +1 movement for Recon units (scouts ODM gear)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('AOT_ODM_SCOUTS_MOVEMENT', 'MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT', 'AOT_UNIT_IS_RECON');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('AOT_ODM_SCOUTS_MOVEMENT', 'Amount', '1');
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('AOT_UNIT_IS_RECON', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('AOT_REQ_UNIT_IS_RECON', 'REQUIREMENT_UNIT_TAG_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('AOT_REQ_UNIT_IS_RECON', 'Tag', 'CLASS_RECON');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('AOT_UNIT_IS_RECON', 'AOT_REQ_UNIT_IS_RECON');
+
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 ('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_GRANT_FOUNDERS_DEFENSE'),
 ('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_ENCAMPMENT_PRODUCTION'),
 ('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_ENCAMPMENT_BUILDING_PRODUCTION'),
-('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_GRANT_ODM_SCOUTS');
+('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_GRANT_ODM_SCOUTS'),
+('TRAIT_LEADER_AOT_FOUNDERS_WILL', 'AOT_ODM_SCOUTS_MOVEMENT');
 
 --------------------------------------------------------------
 -- 12. AGENDA & AI
