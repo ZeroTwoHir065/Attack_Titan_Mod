@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+  <!-- ==================== ICON ATLASES ==================== -->
+  <IconTextureAtlases>
+
+    <!-- Leader: Eren Yeager -->
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="256" Filename="Textures/LEADER_AOT_EREN_256.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="128" Filename="Textures/LEADER_AOT_EREN_128.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="80" Filename="Textures/LEADER_AOT_EREN_80.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="64" Filename="Textures/LEADER_AOT_EREN_64.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="50" Filename="Textures/LEADER_AOT_EREN_50.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="48" Filename="Textures/LEADER_AOT_EREN_48.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="45" Filename="Textures/LEADER_AOT_EREN_45.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="44" Filename="Textures/LEADER_AOT_EREN_44.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="38" Filename="Textures/LEADER_AOT_EREN_38.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="36" Filename="Textures/LEADER_AOT_EREN_36.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="32" Filename="Textures/LEADER_AOT_EREN_32.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="30" Filename="Textures/LEADER_AOT_EREN_30.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="22" Filename="Textures/LEADER_AOT_EREN_22.dds" Columns="1" Rows="1"/>
+
+    <!-- Civilization: Eldia -->
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="256" Filename="Textures/CIV_AOT_ELDIA_256.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="128" Filename="Textures/CIV_AOT_ELDIA_128.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="80" Filename="Textures/CIV_AOT_ELDIA_80.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="64" Filename="Textures/CIV_AOT_ELDIA_64.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="50" Filename="Textures/CIV_AOT_ELDIA_50.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="48" Filename="Textures/CIV_AOT_ELDIA_48.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="45" Filename="Textures/CIV_AOT_ELDIA_45.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="44" Filename="Textures/CIV_AOT_ELDIA_44.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="38" Filename="Textures/CIV_AOT_ELDIA_38.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="36" Filename="Textures/CIV_AOT_ELDIA_36.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="32" Filename="Textures/CIV_AOT_ELDIA_32.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="30" Filename="Textures/CIV_AOT_ELDIA_30.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="22" Filename="Textures/CIV_AOT_ELDIA_22.dds" Columns="1" Rows="1"/>
+
+    <!-- Unit: Scout Regiment -->
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="256" Filename="Textures/UNIT_AOT_SCOUT_256.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="128" Filename="Textures/UNIT_AOT_SCOUT_128.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="80" Filename="Textures/UNIT_AOT_SCOUT_80.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="64" Filename="Textures/UNIT_AOT_SCOUT_64.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="50" Filename="Textures/UNIT_AOT_SCOUT_50.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="48" Filename="Textures/UNIT_AOT_SCOUT_48.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="38" Filename="Textures/UNIT_AOT_SCOUT_38.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="36" Filename="Textures/UNIT_AOT_SCOUT_36.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="32" Filename="Textures/UNIT_AOT_SCOUT_32.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="22" Filename="Textures/UNIT_AOT_SCOUT_22.dds" Columns="1" Rows="1"/>
+
+    <!-- Building: Wall Maria -->
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="256" Filename="Textures/BUILDING_AOT_MARIA_256.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="128" Filename="Textures/BUILDING_AOT_MARIA_128.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="80" Filename="Textures/BUILDING_AOT_MARIA_80.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="64" Filename="Textures/BUILDING_AOT_MARIA_64.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="50" Filename="Textures/BUILDING_AOT_MARIA_50.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="48" Filename="Textures/BUILDING_AOT_MARIA_48.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="38" Filename="Textures/BUILDING_AOT_MARIA_38.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="36" Filename="Textures/BUILDING_AOT_MARIA_36.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="32" Filename="Textures/BUILDING_AOT_MARIA_32.dds" Columns="1" Rows="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="22" Filename="Textures/BUILDING_AOT_MARIA_22.dds" Columns="1" Rows="1"/>
+
+  </IconTextureAtlases>
+
+  <!-- ==================== ICON DEFINITIONS ==================== -->
+  <IconDefinitions>
+    <Row Name="ICON_LEADER_AOT_EREN" Atlas="ICON_ATLAS_AOT_LEADER" Index="0"/>
+    <Row Name="ICON_CIVILIZATION_AOT_ELDIA" Atlas="ICON_ATLAS_AOT_CIV" Index="0"/>
+    <Row Name="ICON_UNIT_AOT_SCOUT_REGIMENT" Atlas="ICON_ATLAS_AOT_UNIT" Index="0"/>
+    <Row Name="ICON_BUILDING_AOT_WALL_MARIA" Atlas="ICON_ATLAS_AOT_BUILDING" Index="0"/>
+  </IconDefinitions>
+
+</GameData>
