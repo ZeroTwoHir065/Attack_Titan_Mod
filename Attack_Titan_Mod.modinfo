@@ -53,9 +53,9 @@
     <UpdateDatabase id="AOT_Config">
       <File>Data/Config.sql</File>
     </UpdateDatabase>
-    <UpdateColors id="AOT_Colors_FE">
-      <File>Data/Colors.xml</File>
-    </UpdateColors>
+    <UpdateDatabase id="AOT_Colors_FE">
+      <File>Data/Colors.sql</File>
+    </UpdateDatabase>
     <UpdateIcons id="AOT_Icons_FE">
       <File>Data/Icons.xml</File>
     </UpdateIcons>
@@ -108,9 +108,9 @@
     <UpdateDatabase id="AOT_Gameplay">
       <File>Data/Leader.sql</File>
     </UpdateDatabase>
-    <UpdateColors id="AOT_Colors">
-      <File>Data/Colors.xml</File>
-    </UpdateColors>
+    <UpdateDatabase id="AOT_Colors">
+      <File>Data/Colors.sql</File>
+    </UpdateDatabase>
     <UpdateIcons id="AOT_Icons">
       <File>Data/Icons.xml</File>
     </UpdateIcons>
@@ -122,7 +122,7 @@
   <Files>
     <File>Data/Leader.sql</File>
     <File>Data/Config.sql</File>
-    <File>Data/Colors.xml</File>
+    <File>Data/Colors.sql</File>
     <File>Data/Icons.xml</File>
     <File>Text/Text.xml</File>
     <File>LEADER_AOT_EREN_256.dds</File>
