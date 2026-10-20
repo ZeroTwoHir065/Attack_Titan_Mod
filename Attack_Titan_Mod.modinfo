@@ -10,6 +10,46 @@
   </Properties>
 
   <FrontEndActions>
+    <ImportFiles id="AOT_FrontEnd_Imports">
+      <File>LEADER_AOT_EREN_256.dds</File>
+      <File>LEADER_AOT_EREN_80.dds</File>
+      <File>LEADER_AOT_EREN_50.dds</File>
+      <File>LEADER_AOT_EREN_48.dds</File>
+      <File>LEADER_AOT_EREN_45.dds</File>
+      <File>LEADER_AOT_EREN_44.dds</File>
+      <File>LEADER_AOT_EREN_38.dds</File>
+      <File>LEADER_AOT_EREN_36.dds</File>
+      <File>LEADER_AOT_EREN_32.dds</File>
+      <File>LEADER_AOT_EREN_30.dds</File>
+      <File>LEADER_AOT_EREN_22.dds</File>
+      <File>CIV_AOT_ELDIA_256.dds</File>
+      <File>CIV_AOT_ELDIA_80.dds</File>
+      <File>CIV_AOT_ELDIA_50.dds</File>
+      <File>CIV_AOT_ELDIA_48.dds</File>
+      <File>CIV_AOT_ELDIA_45.dds</File>
+      <File>CIV_AOT_ELDIA_44.dds</File>
+      <File>CIV_AOT_ELDIA_38.dds</File>
+      <File>CIV_AOT_ELDIA_36.dds</File>
+      <File>CIV_AOT_ELDIA_32.dds</File>
+      <File>CIV_AOT_ELDIA_30.dds</File>
+      <File>CIV_AOT_ELDIA_22.dds</File>
+      <File>UNIT_AOT_SCOUT_256.dds</File>
+      <File>UNIT_AOT_SCOUT_80.dds</File>
+      <File>UNIT_AOT_SCOUT_50.dds</File>
+      <File>UNIT_AOT_SCOUT_48.dds</File>
+      <File>UNIT_AOT_SCOUT_38.dds</File>
+      <File>UNIT_AOT_SCOUT_36.dds</File>
+      <File>UNIT_AOT_SCOUT_32.dds</File>
+      <File>UNIT_AOT_SCOUT_22.dds</File>
+      <File>BUILDING_AOT_MARIA_256.dds</File>
+      <File>BUILDING_AOT_MARIA_80.dds</File>
+      <File>BUILDING_AOT_MARIA_50.dds</File>
+      <File>BUILDING_AOT_MARIA_48.dds</File>
+      <File>BUILDING_AOT_MARIA_38.dds</File>
+      <File>BUILDING_AOT_MARIA_36.dds</File>
+      <File>BUILDING_AOT_MARIA_32.dds</File>
+      <File>BUILDING_AOT_MARIA_22.dds</File>
+    </ImportFiles>
     <UpdateDatabase id="AOT_Config">
       <File>Data/Config.sql</File>
     </UpdateDatabase>
@@ -25,6 +65,46 @@
   </FrontEndActions>
 
   <InGameActions>
+    <ImportFiles id="AOT_InGame_Imports">
+      <File>LEADER_AOT_EREN_256.dds</File>
+      <File>LEADER_AOT_EREN_80.dds</File>
+      <File>LEADER_AOT_EREN_50.dds</File>
+      <File>LEADER_AOT_EREN_48.dds</File>
+      <File>LEADER_AOT_EREN_45.dds</File>
+      <File>LEADER_AOT_EREN_44.dds</File>
+      <File>LEADER_AOT_EREN_38.dds</File>
+      <File>LEADER_AOT_EREN_36.dds</File>
+      <File>LEADER_AOT_EREN_32.dds</File>
+      <File>LEADER_AOT_EREN_30.dds</File>
+      <File>LEADER_AOT_EREN_22.dds</File>
+      <File>CIV_AOT_ELDIA_256.dds</File>
+      <File>CIV_AOT_ELDIA_80.dds</File>
+      <File>CIV_AOT_ELDIA_50.dds</File>
+      <File>CIV_AOT_ELDIA_48.dds</File>
+      <File>CIV_AOT_ELDIA_45.dds</File>
+      <File>CIV_AOT_ELDIA_44.dds</File>
+      <File>CIV_AOT_ELDIA_38.dds</File>
+      <File>CIV_AOT_ELDIA_36.dds</File>
+      <File>CIV_AOT_ELDIA_32.dds</File>
+      <File>CIV_AOT_ELDIA_30.dds</File>
+      <File>CIV_AOT_ELDIA_22.dds</File>
+      <File>UNIT_AOT_SCOUT_256.dds</File>
+      <File>UNIT_AOT_SCOUT_80.dds</File>
+      <File>UNIT_AOT_SCOUT_50.dds</File>
+      <File>UNIT_AOT_SCOUT_48.dds</File>
+      <File>UNIT_AOT_SCOUT_38.dds</File>
+      <File>UNIT_AOT_SCOUT_36.dds</File>
+      <File>UNIT_AOT_SCOUT_32.dds</File>
+      <File>UNIT_AOT_SCOUT_22.dds</File>
+      <File>BUILDING_AOT_MARIA_256.dds</File>
+      <File>BUILDING_AOT_MARIA_80.dds</File>
+      <File>BUILDING_AOT_MARIA_50.dds</File>
+      <File>BUILDING_AOT_MARIA_48.dds</File>
+      <File>BUILDING_AOT_MARIA_38.dds</File>
+      <File>BUILDING_AOT_MARIA_36.dds</File>
+      <File>BUILDING_AOT_MARIA_32.dds</File>
+      <File>BUILDING_AOT_MARIA_22.dds</File>
+    </ImportFiles>
     <UpdateDatabase id="AOT_Gameplay">
       <File>Data/Leader.sql</File>
     </UpdateDatabase>
@@ -45,70 +125,43 @@
     <File>Data/Colors.xml</File>
     <File>Data/Icons.xml</File>
     <File>Text/Text.xml</File>
-    <File>Textures/LEADER_AOT_EREN_256.dds</File>
-    <File>Textures/LEADER_AOT_EREN_128.dds</File>
-    <File>Textures/LEADER_AOT_EREN_80.dds</File>
-    <File>Textures/LEADER_AOT_EREN_64.dds</File>
-    <File>Textures/LEADER_AOT_EREN_50.dds</File>
-    <File>Textures/LEADER_AOT_EREN_48.dds</File>
-    <File>Textures/LEADER_AOT_EREN_45.dds</File>
-    <File>Textures/LEADER_AOT_EREN_44.dds</File>
-    <File>Textures/LEADER_AOT_EREN_38.dds</File>
-    <File>Textures/LEADER_AOT_EREN_36.dds</File>
-    <File>Textures/LEADER_AOT_EREN_32.dds</File>
-    <File>Textures/LEADER_AOT_EREN_30.dds</File>
-    <File>Textures/LEADER_AOT_EREN_22.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_256.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_128.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_80.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_64.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_50.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_48.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_45.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_44.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_38.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_36.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_32.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_30.dds</File>
-    <File>Textures/LEADER_AOT_EREN_BG_22.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_256.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_128.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_80.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_64.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_50.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_48.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_45.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_44.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_38.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_36.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_32.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_30.dds</File>
-    <File>Textures/CIV_AOT_ELDIA_22.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_256.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_128.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_80.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_64.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_50.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_48.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_45.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_44.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_38.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_36.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_32.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_30.dds</File>
-    <File>Textures/UNIT_AOT_SCOUT_22.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_256.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_128.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_80.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_64.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_50.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_48.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_45.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_44.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_38.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_36.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_32.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_30.dds</File>
-    <File>Textures/BUILDING_AOT_MARIA_22.dds</File>
+    <File>LEADER_AOT_EREN_256.dds</File>
+    <File>LEADER_AOT_EREN_80.dds</File>
+    <File>LEADER_AOT_EREN_50.dds</File>
+    <File>LEADER_AOT_EREN_48.dds</File>
+    <File>LEADER_AOT_EREN_45.dds</File>
+    <File>LEADER_AOT_EREN_44.dds</File>
+    <File>LEADER_AOT_EREN_38.dds</File>
+    <File>LEADER_AOT_EREN_36.dds</File>
+    <File>LEADER_AOT_EREN_32.dds</File>
+    <File>LEADER_AOT_EREN_30.dds</File>
+    <File>LEADER_AOT_EREN_22.dds</File>
+    <File>CIV_AOT_ELDIA_256.dds</File>
+    <File>CIV_AOT_ELDIA_80.dds</File>
+    <File>CIV_AOT_ELDIA_50.dds</File>
+    <File>CIV_AOT_ELDIA_48.dds</File>
+    <File>CIV_AOT_ELDIA_45.dds</File>
+    <File>CIV_AOT_ELDIA_44.dds</File>
+    <File>CIV_AOT_ELDIA_38.dds</File>
+    <File>CIV_AOT_ELDIA_36.dds</File>
+    <File>CIV_AOT_ELDIA_32.dds</File>
+    <File>CIV_AOT_ELDIA_30.dds</File>
+    <File>CIV_AOT_ELDIA_22.dds</File>
+    <File>UNIT_AOT_SCOUT_256.dds</File>
+    <File>UNIT_AOT_SCOUT_80.dds</File>
+    <File>UNIT_AOT_SCOUT_50.dds</File>
+    <File>UNIT_AOT_SCOUT_48.dds</File>
+    <File>UNIT_AOT_SCOUT_38.dds</File>
+    <File>UNIT_AOT_SCOUT_36.dds</File>
+    <File>UNIT_AOT_SCOUT_32.dds</File>
+    <File>UNIT_AOT_SCOUT_22.dds</File>
+    <File>BUILDING_AOT_MARIA_256.dds</File>
+    <File>BUILDING_AOT_MARIA_80.dds</File>
+    <File>BUILDING_AOT_MARIA_50.dds</File>
+    <File>BUILDING_AOT_MARIA_48.dds</File>
+    <File>BUILDING_AOT_MARIA_38.dds</File>
+    <File>BUILDING_AOT_MARIA_36.dds</File>
+    <File>BUILDING_AOT_MARIA_32.dds</File>
+    <File>BUILDING_AOT_MARIA_22.dds</File>
   </Files>
 </Mod>

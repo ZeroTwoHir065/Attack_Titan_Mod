@@ -5,50 +5,50 @@
   <IconTextureAtlases>
 
     <!-- Leader: Eren Yeager -->
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="256" Filename="Textures/LEADER_AOT_EREN_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="80"  Filename="Textures/LEADER_AOT_EREN_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="50"  Filename="Textures/LEADER_AOT_EREN_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="48"  Filename="Textures/LEADER_AOT_EREN_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="45"  Filename="Textures/LEADER_AOT_EREN_45.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="44"  Filename="Textures/LEADER_AOT_EREN_44.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="38"  Filename="Textures/LEADER_AOT_EREN_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="36"  Filename="Textures/LEADER_AOT_EREN_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="32"  Filename="Textures/LEADER_AOT_EREN_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="30"  Filename="Textures/LEADER_AOT_EREN_30.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="22"  Filename="Textures/LEADER_AOT_EREN_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="256" Filename="LEADER_AOT_EREN_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="80"  Filename="LEADER_AOT_EREN_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="50"  Filename="LEADER_AOT_EREN_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="48"  Filename="LEADER_AOT_EREN_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="45"  Filename="LEADER_AOT_EREN_45.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="44"  Filename="LEADER_AOT_EREN_44.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="38"  Filename="LEADER_AOT_EREN_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="36"  Filename="LEADER_AOT_EREN_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="32"  Filename="LEADER_AOT_EREN_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="30"  Filename="LEADER_AOT_EREN_30.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_LEADER" IconSize="22"  Filename="LEADER_AOT_EREN_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
 
     <!-- Civilization: Eldia -->
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="256" Filename="Textures/CIV_AOT_ELDIA_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="80"  Filename="Textures/CIV_AOT_ELDIA_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="50"  Filename="Textures/CIV_AOT_ELDIA_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="48"  Filename="Textures/CIV_AOT_ELDIA_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="45"  Filename="Textures/CIV_AOT_ELDIA_45.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="44"  Filename="Textures/CIV_AOT_ELDIA_44.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="38"  Filename="Textures/CIV_AOT_ELDIA_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="36"  Filename="Textures/CIV_AOT_ELDIA_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="32"  Filename="Textures/CIV_AOT_ELDIA_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="30"  Filename="Textures/CIV_AOT_ELDIA_30.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="22"  Filename="Textures/CIV_AOT_ELDIA_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="256" Filename="CIV_AOT_ELDIA_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="80"  Filename="CIV_AOT_ELDIA_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="50"  Filename="CIV_AOT_ELDIA_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="48"  Filename="CIV_AOT_ELDIA_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="45"  Filename="CIV_AOT_ELDIA_45.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="44"  Filename="CIV_AOT_ELDIA_44.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="38"  Filename="CIV_AOT_ELDIA_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="36"  Filename="CIV_AOT_ELDIA_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="32"  Filename="CIV_AOT_ELDIA_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="30"  Filename="CIV_AOT_ELDIA_30.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_CIV" IconSize="22"  Filename="CIV_AOT_ELDIA_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
 
     <!-- Unit: Scout Regiment -->
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="256" Filename="Textures/UNIT_AOT_SCOUT_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="80"  Filename="Textures/UNIT_AOT_SCOUT_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="50"  Filename="Textures/UNIT_AOT_SCOUT_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="48"  Filename="Textures/UNIT_AOT_SCOUT_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="38"  Filename="Textures/UNIT_AOT_SCOUT_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="36"  Filename="Textures/UNIT_AOT_SCOUT_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="32"  Filename="Textures/UNIT_AOT_SCOUT_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="22"  Filename="Textures/UNIT_AOT_SCOUT_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="256" Filename="UNIT_AOT_SCOUT_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="80"  Filename="UNIT_AOT_SCOUT_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="50"  Filename="UNIT_AOT_SCOUT_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="48"  Filename="UNIT_AOT_SCOUT_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="38"  Filename="UNIT_AOT_SCOUT_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="36"  Filename="UNIT_AOT_SCOUT_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="32"  Filename="UNIT_AOT_SCOUT_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_UNIT" IconSize="22"  Filename="UNIT_AOT_SCOUT_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
 
     <!-- Building: Wall Maria -->
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="256" Filename="Textures/BUILDING_AOT_MARIA_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="80"  Filename="Textures/BUILDING_AOT_MARIA_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="50"  Filename="Textures/BUILDING_AOT_MARIA_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="48"  Filename="Textures/BUILDING_AOT_MARIA_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="38"  Filename="Textures/BUILDING_AOT_MARIA_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="36"  Filename="Textures/BUILDING_AOT_MARIA_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="32"  Filename="Textures/BUILDING_AOT_MARIA_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
-    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="22"  Filename="Textures/BUILDING_AOT_MARIA_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="256" Filename="BUILDING_AOT_MARIA_256.dds" IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="80"  Filename="BUILDING_AOT_MARIA_80.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="50"  Filename="BUILDING_AOT_MARIA_50.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="48"  Filename="BUILDING_AOT_MARIA_48.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="38"  Filename="BUILDING_AOT_MARIA_38.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="36"  Filename="BUILDING_AOT_MARIA_36.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="32"  Filename="BUILDING_AOT_MARIA_32.dds"  IconsPerRow="1" IconsPerColumn="1"/>
+    <Row Name="ICON_ATLAS_AOT_BUILDING" IconSize="22"  Filename="BUILDING_AOT_MARIA_22.dds"  IconsPerRow="1" IconsPerColumn="1"/>
 
   </IconTextureAtlases>
 
