@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <PlayerColors>
+    <Row Type="LEADER_AOT_EREN" Usage="Unique"
+         PrimaryColor="COLOR_STANDARD_GREEN_DK"
+         SecondaryColor="COLOR_STANDARD_WHITE"
+         Alt1PrimaryColor="COLOR_STANDARD_GREEN_MD"
+         Alt1SecondaryColor="COLOR_STANDARD_WHITE"
+         Alt2PrimaryColor="COLOR_STANDARD_GREEN_DK"
+         Alt2SecondaryColor="COLOR_STANDARD_YELLOW_LT"
+         Alt3PrimaryColor="COLOR_STANDARD_GREEN_LT"
+         Alt3SecondaryColor="COLOR_STANDARD_GREEN_DK"/>
+  </PlayerColors>
+</GameInfo>

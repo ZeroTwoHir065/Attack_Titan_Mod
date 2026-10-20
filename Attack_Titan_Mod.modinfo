@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="006563ac-d76e-4549-b966-094594e71ab0" version="1">
+  <Properties>
+    <Name>Attack Titan Mod</Name>
+    <Description>Adds the civilization of Eldia led by Eren Yeager. Defensive civilization focused on walls, faith, and the Scout Regiment.</Description>
+    <Teaser>Eldia - Eren Yeager</Teaser>
+    <Authors>ZeroTwoHir065</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+
+  <FrontEndActions>
+    <UpdateDatabase id="AOT_Config">
+      <File>Data/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="AOT_Colors_FE">
+      <File>Data/Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="AOT_Text_FE">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+
+  <InGameActions>
+    <UpdateDatabase id="AOT_Gameplay">
+      <File>Data/Leader.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="AOT_Colors">
+      <File>Data/Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="AOT_Text">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+
+  <Files>
+    <File>Data/Leader.sql</File>
+    <File>Data/Config.sql</File>
+    <File>Data/Colors.xml</File>
+    <File>Text/Text.xml</File>
+  </Files>
+</Mod>

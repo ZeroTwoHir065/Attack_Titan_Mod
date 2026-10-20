@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+
+    <!-- ==================== CIVILIZATION ==================== -->
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_NAME" Language="en_US">
+      <Text>Eldia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_NAME" Language="ru_RU">
+      <Text>Эльдия</Text>
+    </Row>
+
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_DESCRIPTION" Language="en_US">
+      <Text>The Eldian Empire, protected by three great walls, is a civilization built on faith and fortification.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_DESCRIPTION" Language="ru_RU">
+      <Text>Эльдийская империя, защищённая тремя великими стенами — цивилизация, построенная на вере и укреплениях.</Text>
+    </Row>
+
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_ADJECTIVE" Language="en_US">
+      <Text>Eldian</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AOT_ELDIA_ADJECTIVE" Language="ru_RU">
+      <Text>Эльдийский</Text>
+    </Row>
+
+    <!-- ==================== LEADER ==================== -->
+    <Row Tag="LOC_LEADER_AOT_EREN_NAME" Language="en_US">
+      <Text>Eren Yeager</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_AOT_EREN_NAME" Language="ru_RU">
+      <Text>Эрен Йегер</Text>
+    </Row>
+
+    <Row Tag="LOC_LEADER_AOT_EREN_QUOTE" Language="en_US">
+      <Text>If you win, you live. If you lose, you die. If you don't fight, you can't win.</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_AOT_EREN_QUOTE" Language="ru_RU">
+      <Text>Если победишь — выживешь. Если проиграешь — умрёшь. Если не будешь сражаться — не сможешь победить.</Text>
+    </Row>
+
+    <!-- ==================== CIV ABILITY ==================== -->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AOT_THREE_WALLS_NAME" Language="en_US">
+      <Text>The Three Walls</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AOT_THREE_WALLS_NAME" Language="ru_RU">
+      <Text>Три Стены</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AOT_THREE_WALLS_DESCRIPTION" Language="en_US">
+      <Text>+100% [ICON_Production] Production toward wall buildings. Cities with walls receive +4 [ICON_Faith] Faith from the Wall Cult.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_AOT_THREE_WALLS_DESCRIPTION" Language="ru_RU">
+      <Text>+100% [ICON_Production] производства стен. Города со стенами получают +4 [ICON_Faith] веры от Культа Стен.</Text>
+    </Row>
+
+    <!-- ==================== LEADER ABILITY ==================== -->
+    <Row Tag="LOC_TRAIT_LEADER_AOT_FOUNDERS_WILL_NAME" Language="en_US">
+      <Text>Founder's Will</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_AOT_FOUNDERS_WILL_NAME" Language="ru_RU">
+      <Text>Воля Прародителя</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_AOT_FOUNDERS_WILL_DESCRIPTION" Language="en_US">
+      <Text>Land combat units receive +7 [ICON_Strength] Combat Strength on your territory. +50% [ICON_Production] Production toward the Encampment district and its buildings. Scout units gain +1 [ICON_Movement] Movement and ignore movement penalties in Forests and Rainforests.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_AOT_FOUNDERS_WILL_DESCRIPTION" Language="ru_RU">
+      <Text>Наземные боевые юниты получают +7 [ICON_Strength] силы на своей территории. +50% [ICON_Production] производства Военного лагеря и его зданий. Разведчики получают +1 [ICON_Movement] передвижения и игнорируют штрафы передвижения в лесах и тропических лесах.</Text>
+    </Row>
+
+    <!-- ==================== UNIQUE UNIT ==================== -->
+    <Row Tag="LOC_UNIT_AOT_SCOUT_REGIMENT_NAME" Language="en_US">
+      <Text>Scout Regiment</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AOT_SCOUT_REGIMENT_NAME" Language="ru_RU">
+      <Text>Разведкорпус</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_AOT_SCOUT_REGIMENT_DESCRIPTION" Language="en_US">
+      <Text>Eldian unique melee unit that replaces the Swordsman. Higher [ICON_Strength] Combat Strength and [ICON_Movement] Movement. Does not require [ICON_RESOURCE_IRON] Iron. Ignores movement penalties in Forests and Rainforests thanks to ODM Gear.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_AOT_SCOUT_REGIMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Уникальный юнит ближнего боя Эльдии, заменяющий Мечника. Повышенные [ICON_Strength] сила и [ICON_Movement] передвижение. Не требует [ICON_RESOURCE_IRON] железа. Игнорирует штрафы передвижения в лесах и тропических лесах благодаря УПМБ.</Text>
+    </Row>
+
+    <!-- ==================== UNIQUE BUILDING ==================== -->
+    <Row Tag="LOC_BUILDING_AOT_WALL_MARIA_NAME" Language="en_US">
+      <Text>Wall Maria</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AOT_WALL_MARIA_NAME" Language="ru_RU">
+      <Text>Стена Мария</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_AOT_WALL_MARIA_DESCRIPTION" Language="en_US">
+      <Text>Eldian unique wall that replaces Ancient Walls. Provides +2 [ICON_Housing] Housing and +2 [ICON_Production] Production. 50% more durable than standard walls.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_AOT_WALL_MARIA_DESCRIPTION" Language="ru_RU">
+      <Text>Уникальная стена Эльдии, заменяющая Древние стены. Даёт +2 [ICON_Housing] жильё и +2 [ICON_Production] производство. На 50% прочнее обычных стен.</Text>
+    </Row>
+
+    <!-- ==================== ABILITIES ==================== -->
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_NAME" Language="en_US">
+      <Text>Founder's Will</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_NAME" Language="ru_RU">
+      <Text>Воля Прародителя</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_DESCRIPTION" Language="en_US">
+      <Text>+7 [ICON_Strength] Combat Strength on your territory.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_DESCRIPTION" Language="ru_RU">
+      <Text>+7 [ICON_Strength] силы на своей территории.</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_PREVIEW" Language="en_US">
+      <Text>+7 Founder's Will (own territory)</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_FOUNDERS_DEFENSE_PREVIEW" Language="ru_RU">
+      <Text>+7 Воля Прародителя (своя территория)</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_ODM_NAME" Language="en_US">
+      <Text>ODM Gear</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_ODM_NAME" Language="ru_RU">
+      <Text>УПМБ</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_ODM_DESCRIPTION" Language="en_US">
+      <Text>Ignores movement penalties in Forests and Rainforests.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_ODM_DESCRIPTION" Language="ru_RU">
+      <Text>Игнорирует штрафы передвижения в лесах и тропических лесах.</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_ODM_SCOUTS_NAME" Language="en_US">
+      <Text>ODM Equipment</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_ODM_SCOUTS_NAME" Language="ru_RU">
+      <Text>Экипировка УПМБ</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_AOT_ODM_SCOUTS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement. Ignores movement penalties in Forests and Rainforests.</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_AOT_ODM_SCOUTS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Movement] передвижение. Игнорирует штрафы передвижения в лесах и тропических лесах.</Text>
+    </Row>
+
+    <!-- ==================== AGENDA ==================== -->
+    <Row Tag="LOC_AGENDA_AOT_WALL_DEFENDER_NAME" Language="en_US">
+      <Text>Defender of the Walls</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AOT_WALL_DEFENDER_NAME" Language="ru_RU">
+      <Text>Защитник Стен</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_AOT_WALL_DEFENDER_DESCRIPTION" Language="en_US">
+      <Text>Respects civilizations that build strong defenses. Distrusts those who declare surprise wars.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_AOT_WALL_DEFENDER_DESCRIPTION" Language="ru_RU">
+      <Text>Уважает цивилизации с крепкой обороной. Не доверяет тем, кто объявляет внезапные войны.</Text>
+    </Row>
+
+    <!-- ==================== CITY NAMES ==================== -->
+    <Row Tag="LOC_CITY_NAME_AOT_SHIGANSHINA" Language="en_US">
+      <Text>Shiganshina</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_SHIGANSHINA" Language="ru_RU">
+      <Text>Шиганшина</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_TROST" Language="en_US">
+      <Text>Trost</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_TROST" Language="ru_RU">
+      <Text>Трост</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_KARANES" Language="en_US">
+      <Text>Karanes</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_KARANES" Language="ru_RU">
+      <Text>Каранес</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_STOHESS" Language="en_US">
+      <Text>Stohess</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_STOHESS" Language="ru_RU">
+      <Text>Стохесс</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_EHRMICH" Language="en_US">
+      <Text>Ehrmich</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_EHRMICH" Language="ru_RU">
+      <Text>Эрмих</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_KROLVA" Language="en_US">
+      <Text>Krolva</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_KROLVA" Language="ru_RU">
+      <Text>Кролва</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_UTOPIA" Language="en_US">
+      <Text>Utopia</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_UTOPIA" Language="ru_RU">
+      <Text>Утопия</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_ORVUD" Language="en_US">
+      <Text>Orvud</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_ORVUD" Language="ru_RU">
+      <Text>Орвуд</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_RAGAKO" Language="en_US">
+      <Text>Ragako</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_RAGAKO" Language="ru_RU">
+      <Text>Рагако</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_DAUPER" Language="en_US">
+      <Text>Dauper</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_DAUPER" Language="ru_RU">
+      <Text>Даупер</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_YALKELL" Language="en_US">
+      <Text>Yalkell</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_YALKELL" Language="ru_RU">
+      <Text>Ялкелл</Text>
+    </Row>
+
+    <Row Tag="LOC_CITY_NAME_AOT_QUINTA" Language="en_US">
+      <Text>Quinta</Text>
+    </Row>
+    <Row Tag="LOC_CITY_NAME_AOT_QUINTA" Language="ru_RU">
+      <Text>Квинта</Text>
+    </Row>
+
+  </LocalizedText>
+</GameData>
